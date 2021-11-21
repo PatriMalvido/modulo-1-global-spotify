@@ -1,0 +1,31 @@
+.container-footer {
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+}
+.link-footer {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+.footer-left-menu {
+  list-style-type: none;
+}
+@media all and (min-width: 768px) {
+  .footer-right {
+    flex-direction: row;
+  }
+  .footer-left-menu {
+    display: flex;
+    flex-direction: row;
+  }
+}

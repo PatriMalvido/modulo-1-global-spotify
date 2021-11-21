@@ -1,0 +1,19 @@
+.header {
+  background-color: black;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+}
+.imagelogo {
+  height: 30px;
+  margin: 10px;
+
+}
+.hamb {
+  width: 30px;
+  margin: 10px;
+}

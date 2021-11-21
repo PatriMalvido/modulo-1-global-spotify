@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.hero {
+  background-color: #2395f9;
+  margin-top: 50px;
+  min-width: 50vh;
+  padding: 10px; }
+
+.herotitle {
+  font-size: 50px;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 10px; }
+
+.herotext {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px; }
+
+.button {
+  text-align: center;
+  margin: 10px; }
+
+.plans-button {
+  display: inline-block;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px; }
+
+.herotextsmall {
+  color: white; }
+
+/*----------------------------------*/
+.benefits {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px;
+  margin-top: 10px; }
+
+.benefits-title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px; }
+
+.benefits-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.benefits-image {
+  max-height: 100px;
+  margin-right: 30px;
+  margin-bottom: 50px; }
+
+.benefits-content {
+  max-width: 80%; }
+
+.benefits-content-title {
+  margin-bottom: 20px;
+  font-size: 16px; }
+
+.benefits-content-text {
+  color: grey; }
+
+/*-----------------------------------------*/
+@media all and (min-width: 768px) {
+  .hero {
+    min-width: 100vh;
+    background-image: url(../images/premium_dancer.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    background-size: contain; }
+  .button {
+    text-align: left; } }
+
+@media all and (min-width: 1200px) {
+  .benefits-subsection {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+
+.header {
+  background-color: black;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0; }
+
+.imagelogo {
+  height: 30px;
+  margin: 10px; }
+
+.hamb {
+  width: 30px;
+  margin: 10px; }
+
+.container-footer {
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  color: white; }
+
+.footer {
+  display: flex;
+  justify-content: space-between; }
+
+.footer-right {
+  display: flex;
+  flex-direction: column; }
+
+.link-footer {
+  color: white;
+  text-decoration: none;
+  list-style-type: none; }
+
+.footer-left-menu {
+  list-style-type: none; }
+
+@media all and (min-width: 768px) {
+  .footer-right {
+    flex-direction: row; }
+  .footer-left-menu {
+    display: flex;
+    flex-direction: row; } }
+
+/*# sourceMappingURL=main.css.map */
